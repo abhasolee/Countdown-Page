@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Patrick Hand', cursive;
+    
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 2.5rem;
+    font-weight:normal;
+}
+
+
+.countdown{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.countdown-time{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.countdown img{
+    height: 50vh;
+    margin-top: 1rem;
+}
